@@ -1,0 +1,11 @@
+1: https://www.geeksforgeeks.org/how-to-fix-the-height-of-rows-in-the-table/#:~:text=The%20height%20of%20rows%20%E2%80%98tr%E2%80%99%20in%20a%20table,can%20be%20specified%20either%20in%20pixels%2C%20or%20percentage.
+2: https://www.w3schools.com/TAGS/tag_td.asp
+3:https://www.geeksforgeeks.org/html-table-cellspacing-attribute/#:~:text=The%20HTML%20%3Ctable%3E%20cellspacing%20Attribute%20is%20used%20to,cellspacing%20attribute%20is%20set%20in%20terms%20of%20pixels.
+4:https://techdifferences.com/difference-between-cellpadding-and-cellspacing.html#:~:text=Key%20Differences%20Between%20Cellpadding%20and%20Cellspacing.%20Cellpadding%20describes,between%20the%20different%20cells.%20Both%20are%20absolutely%20different.
+5:https://www.winkelb.com/html-rowspan
+
+
+Bild:
+1:https://www.bing.com/th?id=OIP.9Fm_VpW_5UETUl_8mt1yFQHaE8&w=207&h=160&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2
+2:https://viel-unterwegs.de/wp-content/uploads/2019/05/maastricht-sehenswu%CC%88rdigkeiten-underground.jpg
+3:https://th.bing.com/th/id/OIP.gzLvWsbZKx_-qFJEjEeBaQHaD4?w=306&h=180&c=7&r=0&o=5&pid=1.7

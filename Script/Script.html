@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kommunikationstechnik</title>
+    </head>
+    <body >
+        <h1> Kommunikationstechnik Unterricht</h1>
+            <HR>
+            <h2> HTML</h2>
+
+                <p> Ich bin eine Textauszeichnungssprache für Dokumente im WWW und bilde zusammen mit dem hypertext transfer protocol die Basis des Web's</p>
+                <p> HTML-Dokumente besteht aus verschiedensten Content z.B Text, Graphic, Video, Audio und den Steuerinformationen(die sog. TAG'S)</p>
+                <p> TAGS... sind Steuerinformationen für Web-Browser(Kennzeichung eines Bestimmten Abschnittes, Zeilenvorschub, hervorheben einer Textstelle</p>
+                <p> Einige Tags können auch Attribute enthalten. Wobei wiederum ein Attribut oftmals auch konkrete Attribute zugeordnet bekommen kann</p>
+
+            <HR>
+            <h2 > Grundsätzliche Bestandteile eines Html Dokuments</h2>
+                <p> Durch den einleitenden Start-Tag < HTML > wird dem WWW-Server mitgeteilt, dass es sich im Folgenden um ein HTML Dokument handelt. Der End Tag < /HTML > steht ganz am Ende</p>
+                <p> Das Dokument selbst besteht aus den Abschnitten < HEAD > ... < /HEAD > < BODY > ... < /BODY > </p>
+                <p> Der < HEAD > abschnitt enthält allgemeine Iformationen über das Dokument. Hierzu gehört der Abschnitt < title > ... < / title>, durch den der Dokumenten titel festgelegt wird </p>
+                <p> der Inthalt des Anschließenden < BODY > Tag wird im fensterinneren des Web-Browsers dargestellt. Der < BODY > tag kann u.a auch Attribute enthalten, wie Folgt:</p>
+                <p> BACKGROUND="name.jpg", BGCOLOR=', Text="# rr gg bb", Link= (Hypertext Link Farbe), VLINK(angeblicher link-Farbe), ALINK(aktiver link farbe)</p>
+
+            <HR>
+            <h2>    Vorformatierter Text </h2>
+                <p> < PRE > ... < \PRE > </p>
+                <p> Text muss in ASCII Form Vorliegen eund wird sodann in Nicht-Proportional-Schrift ausgegeben. Nicht-Proportional-Schrifft wird synoym als <b>Tele-Schrift</b> Bezeichnet </p>
+                <tt> ICH BIN EIN NICHT PROPORTIONALER TEXT GEMACH MIT < tt > ... < /tt >></tt>
+
+            <HR>
+            <h2> Einfache Horizontale Linie </h2>
+                <p> Eine Horizontale linie wird mit einem < HR > Tag eingefügt. HR = horizontal row </p>
+                <HR>
+                <p>Folgenden Attribute sind Möglich</p>
+                <p>< size > = n  (linien dicke in n Pixel)</p>
+                <p>< width > = n oder n% (linienlänge in n Pixel oder Browser fenster breite in Prozen</p>
+                <p>< Align > = 'left' , 'center' , 'right</p>
+                <p>< noshade ></p>
+
+                <HR size="10" width="60%" Align="center" noshade>
+
+            <hr>
+            <h2> Sonderzeichen</h2>
+                <p> sonderzeichen können auf zwei arten in den Text eingefügt werden :</p>
+                <p> als nummer aus dem Standatisierten Zeichensatz ISO 8859-1 mit einem vorgesetztem # Zeichen</p>
+                <p> als dpezielle Buchstabenküzel</p>
+                <p> In beiden Fällen wird der Ausdruck mit einem & Eingeleitet und mit einem ; abgeschlossen </p>
+                <table border="1">
+                    <tr>
+                        <td> Sonderzeichen</td>
+                        <td> Nummerischer wert( ISO 8859-1)</td>
+                        <td> Buchstabenkürzel</td>
+                    </tr>
+
+                    <tr>
+                        <td> &</td>
+                        <td> & #38;</td>
+                        <td> & amp;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> < </td>
+                        <td> & #60;</td>
+                        <td> & lt;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> ></td>
+                        <td> & #62;</td>
+                        <td> & gt;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> &copy;</td>
+                        <td> & #169;</td>
+                        <td> & copy;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> &reg;</td>
+                        <td> & #174;</td>
+                        <td> & reg;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> Ä </td>
+                        <td> & #196;</td>
+                        <td> & Auml;</td>
+
+                    </tr>
+
+                     <tr>
+                        <td> Ö </td>
+                        <td> & #196;</td>
+                        <td> & Ouml;</td>
+
+                    </tr>
+
+                     <tr>
+                        <td> Ü </td>
+                        <td> & #220;</td>
+                        <td> & Uuml;</td>
+
+                    </tr>
+
+                     <tr>
+                        <td> ß </td>
+                        <td> & #223;</td>
+                        <td> & szlig;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> ä </td>
+                        <td> & #228;</td>
+                        <td> & auml;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> ö </td>
+                        <td> & #246;</td>
+                        <td> & ouml;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> ü </td>
+                        <td> & #256;</td>
+                        <td> & uuml;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> Leerstelle </td>
+                        <td> </td>
+                        <td> & nbsp;</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> Euro </td>
+                        <td> </td>
+                        <td> & euro;</td>
+
+                    </tr>
+                </table>
+
+            <hr>
+            <h2> Tipp</h2>
+                <p>Bei Asymetrischen Tabellen kann mittel Attributen colspan bzw rowspan eine Zelle aus mehreren Einzel-Zellengebildet werden. Die Attribute gehören zum < th > tag bzw < td > tag</p>
+			<hr>
+			<h2>Tabellen</h2>
+			<p> sind grundsätzlich in Tabellen zeilen < tr > angeordnete Zellen < td > in html</p>
+			<p> <b> Notwendige Tags</b> </p>
+			<p> < table> ... < /table> zur Einleitung un Beendung einer Tabelle</p>
+	</body>
+</html>
