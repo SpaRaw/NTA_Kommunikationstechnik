@@ -248,9 +248,87 @@
 					<li> Grafiken, die von vielen Dokumenten verwendet werden, sollten nur einmal an zentraler Stelle gespeichert werden, und mit einem Absoluten Pfad referenziert werden</li>
 					<li> weitere Atribute im Image Tag < img>:
 						<ul>
-							<li>ALT ="Alternativ text" </li>
+							<li>ALT = "Alternativ text"  Alternativtext</li>
+							<li> TITLE = "Text"  Text,der immer Angezeigt wird</li>
+							<li> Align = "top, middle, bottom" 
+								<ul>
+									<li>top - ist bündig mit oberen Rand der Textzeile </li>
+									<li>middle - Grafik ist mittenzentriert zur Baseline Text </li>
+									<li>bottom - Grafik ist bündig mit grundebene des Textes </li> 
+								</ul>
+							</li>
+							<li> Width = "Pixelbreite der Grafik"</li>
+							<li> Height = " Pixelbreite der Grafik"</li>
+							<li> Border = " n"  Rahmen der Grafik in Pixel</li>
+							<li> Vspace = " n " Vertikaler Abstand in Pixel </li>
+							<li> Hspace = "n" Vertikaler Abstand in Pixel </li>
+							<li> LEFT / RIGHT = " Mehrzeiliger Text neben der Grafik" < br> bewirkt einen Vorschub in der nächsten Zeile neben der Grafik.<br> Zeilenvorschub in die nächste Zeile unterhalb der Grafik erfolgt mit < br clear="All"     </li>
+							
 						</ul>
 					</li>
+					
+				</ul>
+			</p>
+			<br>
+			<hr>
+			<h2> Hyper- Links </h2>
+			<p> Sind Querverweise auf Textstellen im selben Dolument oder in einem anderen Dokument, ggf. auch auf einem anderen Rechner.</p>
+			<p>
+				Links können sein : 
+					<ul>
+						<li> Text </li>
+						<li>Grafik </li>
+						<li> Kombination aus beiden </li>
+					</ul>
+			</p>
+			<p> werden mit dem sogenannten Anchor Tag realisiert: 
+				<br> 
+				&nbsp;< A HREF="Url(Uniform Ressource Locator) zum Ziel" > Link Text < /a>
+				<br>
+				&nbsp;zb. < A HREF="http: //www.nta-isny.de/index.html> HOmpage NTA < /A> 
+			</p>
+			<p> Können an belibiger Stelle im HTML Dokument stehen</p>
+			
+			<h3> Sprungziele innerhlb eines Dokuments können folgendermaßen realisiert werden </h3>
+			<p>
+				<ul>
+					<li> Festlegen eines Links < A HREF="#Sprungziel">Text < /a> </li>
+					<li> Sprungstelle (bookmark) im Text markiert mit < A NAME="Sprungziel"> < /A>
+					<li> Springe auf Bookmark in anderen Dokumenten < A HREF="URL #bookmark"> bookmark Text < /a>
+					<li> Link als Grafik < A HREF="Ziel URL"> < img src="Pfad/Bilddatei"> < /a> <br>
+							Grafik erhält ggf. blauer Ramen
+					</li>
+					<li> Mail - Link < A HREF="mailto: Mailaddresse"> link-Text < /A> <br>
+						Kann ein Mail Link eingefügt werden. Damit öffnet sich ein Fensterzur eingabe der Mail, in dem die Zieladresse bereits eingetragen ist
+					</li>
+				</ul>
+				
+			</p>
+			<hr>
+			<h3> MAP ... </h3>
+			<p>
+				stellt case-sensitiven Bereich innerhalb einer Grafik zur Verfügung. <br>
+				<u> Printzip :</u> <br>
+				img muss mit MAP-Area mittels Attribut in Verbindung gebracht werden. <br>
+				< img src="DateinameDerGrafik" usemap="#BelibigerMapName"  width="Pixelwert" height="Pixelwert">
+				< map name="BelibigerName"> 
+					< area shape ="circle" coords="x, y, radius" alt="BelibigerText" href="Pfad/Dokument bzw. Link">
+					< area shape="rect" coords="x1, y1, x2, y2" alt="BelibigerText" href="Pfad/Dokument bzw. Link">
+					< area shape="poly" coords="x1, y1,. . ., xN, yN" alt="BelibigerText" href="Pfad/Dokument bzw. Link">
+				< /map>
+			</p>
+			
+			<hr>
+			<h3> Formulare</h3>
+			<p>
+				... dienen der Intteraktion mit dem USer. Es können aud Strukturierte Art und Weise Daten gesammelt werden, verschickt werde und beim empfangen weitstgwhwn automatisiert ausgewertet werden
+				<br>
+				<ul>
+					<li>Formulare sind somit IDeal für Bestellungen im Online Shops, Vergleichsportale, Verschicherungsabschlüsse und weitere Datensammlungen </li>
+					<li> Typische Formularelemente sind Textzeilen, Menü auswahl , submit button , Radio Button,check Boxen </li>
+					<li>Zu Beachten ist, das die Daten Übertragung mittel https läuft</li>
+					<li> Formulare Können mittels < form> ... < /form> realisiert werden. </li>
+					
 				</ul>
 			</p>
 	</body>
