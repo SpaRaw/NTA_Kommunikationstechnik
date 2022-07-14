@@ -1,0 +1,7 @@
+1.Erstellen sie eine tabellarische Auflistung, welche aufzeigt, wie eine Webseite mittels SEO bestmöglich zu optimieren ist
+2.Zeigen sie auf , wie mittels Google AdWords die nta -isny bestmöglich werben kann- Suchen sie sich passende Wärter. Versuche mittels Google-Analyse software zu belegen. wie erfolgreich die jeweiligen Beriffe sind. Nennen
+	sie zudem die aktuellen Preise der Ad Words nach dem Pay Per Click verfahren
+3.Was ist ein CMS ? wie ist ein CMS grundsätzlich Aufgebaut? Welchen Mehrwehrt gibt es Nennen sie OpenSource Produkte wie auch Kommerziellen Produkte
+4.Was waren die teuersten 10 Domainnamen der vergangenen 10 Jahre?
+5.Wie ist ein Domainname konkret aufgebaut?
+6. Struktu und Funktion der sogenannten NIC ist aufzuzeigen und zu erklären, wie die dortige Domain-Name-Vergabe realisiert

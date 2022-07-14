@@ -1,0 +1,82 @@
+*{padding: 0; margin: 0;}
+html{overflow-y:scroll;}
+body{
+    background: gainsboro;
+    color: white;
+    font-family: Verdana,Arial,Helvetica, SansSerif;
+    font-size: 85%;
+}
+
+div#wrapper{
+    background-color: white;
+    color: black;
+    width: 700px;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+}
+
+div#kopfbereich{
+    background-color: #f3c600;
+    color: black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
+
+div#navibereich{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+div#textbereich{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+div#fussbereich{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-top: 1px solid #8c8c8c;
+    margin-top: 0;
+}
+
+h1{font-size: 150%}
+h2{font-size: 130%}
+
+address{
+    text-align: center;
+    font-size: 80%;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{color: #d90000;}
+a:visited{color: #cc6666;}
+a:hover, a:focus{
+    border-bottom: solid 1px #d90000;
+}
+
+a:active{
+    background-color: gainsboro;
+    color: white;
+}
+
+div#textbereich a:hover, div#textbereich a:focus{
+    border-bottom: 1px solid greenyellow;
+}
+h2, p, ul, ol, blockquote{margin-bottom: 0;}
+ul ul, ul ol, ol ol, ol ul{margin-bottom: 0;}
+ul, ol{margin-left: 2em;}

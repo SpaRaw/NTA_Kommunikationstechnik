@@ -1,0 +1,15 @@
+1) Fertigstellung der potentiellen K.Testat-Html/Css übungsaufgabeaus Praktikum
+2)Recherge nach allen nötigen Schritten & Notwendigkeiten, welche erforderlich sind, um eine eigene Webseite "online" zu schalten
+	Wesentliche Reherche-Stichpunkte:
+		ISP Internet Service Provider
+		Domainnamen
+		E-mailpostfach/ Webspace 
+		Hosting-Dienstleistung
+		Möglichkeiteen einees Kostenlosen Test  
+	DNS = Domain Name Service / Domain Name Server
+		URL wird mittels DNS in IP-Addresse gewandelt, wie auch IP_Adresse in Domain-Name zurück gewandelt
+	http Protokolle fpr die Webseite
+
+	Recherge
+	Theorie Protokollieren
+	Praxisbeispiele mit Leistungen & Preise protokollieren 
